@@ -1,0 +1,32 @@
+div {
+  height: 200px;
+}
+
+header, section, footer {
+  border: 1px solid orange;
+  width: 100%;
+  height: 33.33%;
+  background-color: blue;
+}
+
+.object:nth-child(even):hover {
+  background-color: indigo;
+}
+
+/*  is header the first child of its parent? then style as stated
+always approaching from the child upward. NOT the parent*/
+header:first-child {
+  background-color: hotpink;
+}
+
+li:last-child {
+  background-color: lime;
+}
+
+li:last-child:hover {
+  background-color: lavender;
+}
+
+li:nth-child(even):hover {
+  background-color: yellow;
+}
