@@ -27,6 +27,7 @@ li:last-child:hover {
   background-color: lavender;
 }
 
+/*you can use compounded pseudo-classes: when hovering over even children, styled as stated below*/
 li:nth-child(even):hover {
   background-color: yellow;
 }
@@ -38,6 +39,22 @@ li:nth-child(even):hover {
   display: inline-block;
 }
 
+/* chooses all even numbered children */
 .box:nth-child(even) {
   background-color: orange;
+}
+
+.list-item {
+  font-size: 20px;
+  padding: 2px;
+}
+
+/* nth-child(n) chooses the 'n'th child: in this case, the second in the list */
+.list-item:nth-child(2) {
+  color: blue;
+}
+
+/* nth-last-child(n) chooses 'n' from the bottom: in this case, the first from the bottom which is the last element */
+.list-item:nth-last-child(1) {
+  color: red;
 }

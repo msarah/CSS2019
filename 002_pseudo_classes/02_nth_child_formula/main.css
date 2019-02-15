@@ -1,0 +1,19 @@
+/* The formula is constructed using the syntax an+b, where:
+
+“a” is an integer value
+“n” is the literal letter “n”
+“+” is an operator and may be either “+” or “-”
+“b” is an integer and is required if an operator is included in the formula
+
+It is important to note that this formula is an equation, and iterates through each sibling element, determining which will be selected.
+The n represents a set of increasing positive integers (just like iterating through an array)
+In the following example we would be selecting every 4th element [li:nth-child(4n)]
+If no 'n' is included only the number you place will be selected: li:nth-child(4) means the fourth element
+will be chosen and nothing else*/
+li:nth-child(9n+3) {
+  color: red;
+}
+
+li:nth-last-child(-n+4) {
+  color: green;
+}
