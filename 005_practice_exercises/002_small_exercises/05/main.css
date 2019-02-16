@@ -1,0 +1,13 @@
+p {
+  font-size: 20px;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 30px;
+  font-family: 'Felipa', cursive;
+}
+
+p::first-line {
+  color: red;
+}

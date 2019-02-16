@@ -1,0 +1,22 @@
+a {
+  font: 30px;
+  text-decoration: none;
+}
+
+/* targets all unvisited anchor elements */
+a:link {
+  color: lime;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: gold;
+  font-size: 40px;
+}
+
+a:active {
+  color: blue;
+}
