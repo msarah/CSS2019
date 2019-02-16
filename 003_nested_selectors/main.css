@@ -1,0 +1,25 @@
+p {
+  font-size: 40px;
+  text-align: center;
+}
+
+/*selects any p that is beneath a div (even if nested in other tags,
+  as long as it is beneath a div first )  */
+div p {
+  color: hotpink;
+}
+
+/*selects any p that is an IMMEDIATE child of a div (cannot be nested in other tags);  */
+div>p {
+  color: blue;
+}
+
+/*any p that is a SIBLING FOLLOWING (not above) a div  */
+div~p {
+  color: green;
+}
+
+/*any p that is an IMMEDIATE SIBLING FOLLOWING a div (directly beside/after)  */
+div+p {
+  color: gold;
+}

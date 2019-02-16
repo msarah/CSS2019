@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- "nesting" selectors allows you to further refine which elements are being selected
+        div p : choose ANY p that is a CHILD of a div.
+        div > p: choose ANY p that is IMMEDIATELY beneath a div ( and immediate CHILD)
+        div ~ p: choose ANY p that is a sibling FOLLOWING a div
+        div + p: choose ANY p that is an IMMEDIATE sibling of the div -->
+
+  <!--div>p*2+section>p^^p-->
+  <div>
+    <p>first</p>
+    <p>second</p>
+    <section>
+      <p>third</p>
+    </section>
+  </div>
+  <p>fourth</p>
+  <p>fifth</p>
+  <p>sixth</p>
+
+</body>
+
+</html>

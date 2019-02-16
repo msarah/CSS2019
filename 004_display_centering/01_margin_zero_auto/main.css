@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+div {
+  height: 200px;
+  border: 5px solid red;
+}
+
+/*inline elements only take up the necessary width and height for the content inside them */
+span {
+  border: 5px solid green;
+}
+
+/*making an inline element a block element using the display property */
+img {
+  height: 400px;
+  width: 300px;
+  display: block;
+  /* by making this element a block element we can center it using
+    "margin 0 auto" */
+  margin: 0 auto;
+  border: 5px groove orange;
+}

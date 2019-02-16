@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background-color: blue;
+}
+
+.main-container {
+  width: 700px;
+  height: 100vh;
+  background-color: lime;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+.main-image {
+  display: block;
+  margin: 40px auto;
+  border: 18px groove gold;
+  border-radius: 50%;
+}
+
+.paragraphs-container {
+  margin: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.header001 {
+  color: blue;
+}
+
+.header002 {
+  color: red;
+}
