@@ -1,0 +1,32 @@
+/* mini reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+p {
+  font-size: 2rem;
+  color: fuchsia;
+  /*The letter-spacing CSS property sets the spacing behavior between text characters.  */
+  letter-spacing: .2rem;
+  word-spacing: .2rem;
+}
+
+.hunni {
+  width: 500px;
+  border: 2px solid gold;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: .4rem;
+  word-spacing: .2rem;
+  color: deeppink;
+  font-style: italic;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  /*The comma seperated list of fonts will be applied from left to right. In the case that
+    the specific fonts are NOT available on a users machine, we must give  a generic font
+    to "fall back" on. */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*we are measuring font in "rem"s - this refers to "root" ems which is the BROWSERS DEFAULT font
+    size settings. It is very much encouraged that developers use rem because it will SCALE TO THE
+     USERS DEFAULT FONT SIZE that they have set on their browser!  It keeps everything proportional
+     while also prioritizing the users default settings*/
+  font-size: 4rem;
+  /*the weight of a font refers to how LIGHT or BOLD it is. The browser has default weights on certain
+    elements. Many people choose to reset these styles and insert font-weight themselves as below */
+  font-weight: bold;
+  /*The font-style CSS property sets whether a font should be styled with a normal, italic, or
+    oblique face from its font-family.t\*/
+  font-style: italic;
+}
+
+p {
+  font-size: 4rem;
+  font-family: sans-serif;
+  /* font-variant: The font-variant CSS property is a shorthand for the longhand properties
+    font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures,
+    and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of
+    font-variant, (that is, normal or small-caps), by using the font shorthand.  */
+  font-variant: small-caps;
+}
+
+.numbers-with {
+  font-variant-numeric: ordinal;
+}
+
+.text-transform-test {
+  font-size: 4rem;
+  color: lime;
+  /*The text-transform CSS property specifies how to capitalize an element's text.
+  It can be used to make text appear in all-uppercase or all-lowercase, or with each
+  word capitalized.  */
+  text-transform: capitalize;
+}
+
+a {
+  border: 2px solid red;
+  color: blue;
+}
+
+div {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 20px;
+}
+
+li {
+  font-size: 2rem;
+}
+
+.line-height {
+  font-size: 1rem;
+  font-variant: none;
+  /* adjusts the space BETWEEN lines of text */
+  border: 2px solid red;
+  line-height: 2;
+}
