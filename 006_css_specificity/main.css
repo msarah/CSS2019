@@ -1,0 +1,20 @@
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.h-class {
+  color: red;
+}
+
+#h-id {
+  color: gold;
+}
+
+a {
+  color: red;
+}
+
+[target="_blank"] {
+  color: blue;
+}

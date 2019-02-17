@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<!-- CSS specificity refers to the order and priority given to selectors on an element.
+    elements/pseudo-elements            = +0001
+    classes/pseudo-classes/attributes   = +0010
+    id                                  = +0100
+    inline elements                     = +1000
+
+   using combinations of selectors (or compound selectors) requires calculation of specificity
+
+   ORDER MATTERS: if you have two selectors of equal specificity on an element,
+   the LAST SELECTOR rendered will be applied (CSS is rendered by the browser from
+    TOP to BOTTOM)
+
+  This also applies to HTML: when inserting linked stylesheets, the order in which they are placed matters.
+  For this reason it is important to apply resets FIRST, then any other styling after the page has been reset-->
+
+<body>
+
+  <h1 class="h-class" id="h-id">the id color will be applied as it has a specificity of 100, as compared to a specificity of 10 on the class selector</h1>
+  <!-- the font-weight and font-size properties are still applied to the h1 tag because the class/id selectors are not trying to effect these properties -->
+
+  <a href="https://google.com" target="_blank">link to google</a>
+  <!-- color will be resolved to BLUE because attributes have a higher specificity than element selectors -->
+</body>
+
+</html>
