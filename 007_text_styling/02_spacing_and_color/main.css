@@ -20,13 +20,18 @@ p {
 
 .hunni {
   width: 500px;
+  /*needs width in order for margin centering to work*/
   border: 2px solid gold;
   margin: 40px auto;
-  text-align: center;
   font-size: 4rem;
   letter-spacing: .4rem;
   word-spacing: .2rem;
   color: deeppink;
   font-style: italic;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
+  /* now that I have text, let me edit it */
+  text-align: center;
+  /*"text-align: center" centers all INLINE content of the element
+   --------------------------------------------------------------*/
+  text-shadow:
 }
