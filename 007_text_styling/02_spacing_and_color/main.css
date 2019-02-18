@@ -33,5 +33,6 @@ p {
   text-align: center;
   /*"text-align: center" centers all INLINE content of the element
    --------------------------------------------------------------*/
+  /*text-shadow accepts a comma-seperated list: x, y, blur radius, color  */
   text-shadow:
 }
