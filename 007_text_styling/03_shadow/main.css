@@ -1,7 +1,42 @@
 h1 {
-  font-size: 3rem;
-  color: deeppink;
+  width: 510.531px;
+  /*margin 0 auto is not great as it depends on certain proprties being true to work  */
+  margin: 20px auto;
+  font-size: 6rem;
   font-style: italic;
   font-weight: bold;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+/*The text-shadow CSS property adds shadows to text. It accepts a
+comma-separated list of shadows to be applied to the text and any of
+its decorations. Each shadow is described by some combination of X and Y
+offsets from the element, blur radius, and color.  */
+.header1 {
+  color: deeppink;
+  text-shadow: 2px 2px 3px lavender, 2px 2px 3px blue;
+}
+
+.header1:hover {
+  text-shadow: 4px 4px 6px lavender, 4px 4px 6px blue;
+}
+
+.header2 {
+  color: orange;
+  text-shadow: -.5px -.5px 0 darkorange, -4px -4px 3px gold, -4px -4px 3px red;
+}
+
+.header2:hover {
+  text-shadow: -.5px -.5px 0 darkorange, -6px -6px 6px gold, -7px -7px 3px red;
+}
+
+.header3 {
+  color: blue;
+  /* y shadow only */
+  text-shadow: 0 5px lime;
+}
+
+.header3:hover {
+  /* x shadow only */
+  text-shadow: 5px 0 lime;
 }
