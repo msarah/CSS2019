@@ -40,3 +40,25 @@ offsets from the element, blur radius, and color.  */
   /* x shadow only */
   text-shadow: 5px 0 lime;
 }
+
+p {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 2rem;
+  margin: 20px auto;
+  max-width: 550px;
+  text-indent: 2rem;
+  font-style: italic;
+  text-transform: uppercase;
+  /* FIRST LINE INDENTED ONLY*/
+}
+
+p::first-line {
+  color: red;
+  text-decoration: line-through;
+}
+
+p::first-letter {
+  font-size: 4rem;
+  color: red;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
