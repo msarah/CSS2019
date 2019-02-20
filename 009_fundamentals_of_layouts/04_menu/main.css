@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Righteous', cursive;
+}
+
+ul {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+li:hover {
+  background-color: deeppink;
+}
+
+a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  /* text-transform: uppercase; */
+}
+
+a:hover {
+  color: blue;
+}

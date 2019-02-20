@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid lime;
+}
+
+header {
+  border: 2px solid red;
+  display: flex;
+  /* make flex container */
+  flex-wrap: nowrap;
+  /* defines whether items will be allowed to wrap onto a new line (nowrap=default)*/
+  flex-direction: row;
+  /* defines the MAIN AXIS, thus defines direction in which items are placed (row=default)*/
+  /* primary axis: parallel to flex-direction
+      cross axis: perpendicular to the primary axis */
+}
+
+section {
+  border: 2px solid gold;
+  display: flex;
+  flex-flow: row wrap;
+  /*this is a shorthand property for flex direction and flex wrap*/
+}

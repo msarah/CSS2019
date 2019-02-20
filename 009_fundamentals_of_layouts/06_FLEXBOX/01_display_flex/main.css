@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  /* you can make any element a FLEX CONTAINER by using
+    "display: flex" property and value. This automatically makes
+    any immediate children of the container a FLEX ITEM. There are
+    many different properties that can be set on a flex container that
+    control the layout of its flex items */
+  display: flex;
+  border: 2px solid gold;
+  /* justify-content: space-between; */
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  border: 2px solid dodgerblue;
+}
