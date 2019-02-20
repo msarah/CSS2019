@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Layout</title>
+</head>
+
+<body>
+
+  <h1>The display property</h1>
+  <p>Each element has a default display property value. It's display type defines
+    what it can or cannot do on a web page.</p>
+  <h2>Block VS Inline elements</h2>
+
+  <h3>Block</h3>
+  <ul>
+    <li>Begins a new line</li>
+    <li>Takes up the entire line: takes up as much width as possible (width of browser)</li>
+    <li>Can contain/nest inside: block and inline elements</li>
+  </ul>
+
+  <h3>Inline</h3>
+  <ul>
+    <li>Does NOT begin a new line</li>
+    <li>Takes up as little width as possible (width of content)</li>
+    <li>Can contain/nest inside: ONLY other inline elements</li>
+  </ul>
+
+  <p>Examples below</p>
+
+  <h4>Block elements:</h4>
+  <div class="red">
+  </div>
+  <div class="blue">
+  </div>
+  <div class="yellow"></div>
+  <div class="green"></div>
+
+  <h4>Inline elements:</h4>
+  <p class="outer">This is a paragraph with a <span>span element nested in it.</span>
+    Notice that the span does not take up a whole new line, rather only the width of the content.
+    a paragraph is a block level element. <p>When I place another paragraph within this one, it begins on a new line.
+      (SIDE NOTE: the end tag for p elements can be ommitted if it contains another p inside of it - meaning the ending p
+      tag nested inside the other can act for an end tag for both paragraph elements.) See relevant docs<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"> here</a></p>
+</body>
+
+</html>
