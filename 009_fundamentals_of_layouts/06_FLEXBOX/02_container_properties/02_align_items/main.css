@@ -16,7 +16,7 @@ header {
 }
 
 main {
-  height: 90vh;
+  height: 60vh;
   /* border: 5px solid black; */
   /*-----flex properties-----*/
   display: flex;
@@ -46,4 +46,38 @@ header h1 {
   height: 100px;
   border-radius: 50%;
   background-color: deeppink;
+}
+
+footer {
+  height: 30vh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  padding: 2rem;
+  color: white;
+}
+
+.foot1 {
+  height: 200px;
+  background-color: blue;
+  justify-content: flex-end;
+}
+
+.foot2 {
+  height: 100px;
+  background-color: green;
+  justify-content: flex-end;
+}
+
+.foot3 {
+  height: 150px;
+  background-color: red;
+  justify-content: flex-start;
 }
