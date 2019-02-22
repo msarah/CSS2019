@@ -30,3 +30,24 @@ section {
   flex-flow: row wrap;
   /*this is a shorthand property for flex direction and flex wrap*/
 }
+
+footer {
+  display: flex;
+  /*justify-content defines the behaviour(spacing) of items in a flex container*/
+  justify-content: space-between;
+}
+
+nav>div {
+  background-color: deeppink;
+}
+
+nav {
+  display: flex;
+  border: 2px dashed blue;
+  margin: 2rem;
+  height: 400px;
+  justify-content: space-between;
+  /*main axis is column now*/
+  flex-direction: column;
+  flex-wrap: wrap;
+}
