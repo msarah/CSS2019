@@ -40,6 +40,7 @@ main {
 }
 
 section {
+  text-align: center;
   height: 200px;
   width: 400px;
   border: 2px solid deeppink;
