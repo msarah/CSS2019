@@ -3,6 +3,8 @@
   padding: 0;
   border: 0;
   margin: 0;
+  font-family: 'Muli', sans-serif;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -15,13 +17,40 @@ header {
   justify-content: space-between;
 }
 
-.title {}
+.title {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
 
 .social-links-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.social-links-container img {
-  width: 2rem;
+.social-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: border-radius 300ms
+}
+
+.social-link:hover {
+  border-radius: 50%;
+}
+
+/* using a background image on links is much better than embedding an img tag
+    because it doesn't mess with the spacing when defining layout */
+#github {
+  background-image: url(images/github-icon.png);
+}
+
+#twitter {
+  background-image: url(images/twitter-icon.png);
+}
+
+#youtube {
+  background-image: url(images/youtube-icon.png);
 }
