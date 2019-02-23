@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.dcontainer {
+  display: flex;
+}
+
+.d {
+  height: 100px;
+  border: 2px solid red;
+  background-color: dodgerblue;
+  flex-basis: 200px;
+  /* flex-basis, flex-grow and flex-shrink all work in unison.
+    flex-basis sets the default size for flex items. if there is not enough space
+    for each of the flex items to be equal to the flex basis, they will shrink or grow
+    according to flex grow and flex shrink values. If flex-basis is set to auto it will be
+    equal to the width set on the flex items  */
+}
+
+.d2 {
+  flex-grow: 8;
+  flex-shrink: 8;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  /* centers objects when they reach max width */
+  border: 2px solid blue;
+}
+
+section {
+  height: 200px;
+  width: 400px;
+  border: 2px solid deeppink;
+  background-color: purple;
+  flex: 0 1 auto;
+  /* flex: | flex-grow | flex-shrink | flex-basis
+      by setting grow or shrink to  <div class="dcontainer">
+    <div class="d">test div</div>
+    <div class="d">test div</div>
+    <div class="d d2">test div</div>
+    <div class="d">test div</div>
+    <div class="d">test div</div>
+  </div>
+ 0, you can set a boundary for
+      the item to stop at. Above example sections will not grow beyond
+      the flex basis of 400px */
+}
+
+.s2 {
+  flex: 0 2 auto;
+}
