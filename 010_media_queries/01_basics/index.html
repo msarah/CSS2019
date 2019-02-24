@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="mq-1000-below.css" media="(max-width: 1000px)">
+  <link rel="stylesheet" href="mq-600-above.css" media="(min-width: 600px)">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Media Queries</h1>
+
+  <p>
+    Media Queries allow your web page to be responsive to different
+    screen sizes. They are defined by setting breakpoints at whatever
+    viewport width your layout should change.
+  </p>
+
+  <section>
+    <h2> Media Queries have two main components:</h2>
+
+    <h3>media type (optional):</h3>
+    <ul>
+      <li>all</li>
+      <li>screen</li>
+      <li>print</li>
+      <li>speech</li>
+    </ul>
+
+    <h3>expressions (can have 0 or more expressions):</h3>
+    <ul>
+      <li>min-width (from this minimum point and upwards)</li>
+      <li>max-width (from this maximum point and downwards)</li>
+      <li>and more ..</li>
+    </ul>
+
+  </section>
+
+
+
+  <section>
+    <h2>examples:</h2>
+    <h3> @media [media type] (expression(s)) (embedded in code)</h3>
+
+    <div>OR</div>
+    <p>in HTML link to stylesheet <em>**preferred method!</em></p>
+
+    <h3>&lsaquo; link rel=:stylesheet" href"mq-filename.css" media="(expression)" &rsaquo;</h3>
+
+    <h3>Why?</h3>
+    <ul>
+      <li>follows separation of concerns (more modular code!)</li>
+      <li>only delivers the content to the user when they need it</li>
+      <li>with http2, making multip;e requests to a server no longer has a negative impact on performance</li>
+    </ul>
+
+
+    <p>D.R.Y - Do Not Repeat Yourself</p>
+
+    <p>At 600px OR MORE the text on this page will turn red.
+      (media query using min-width:600px - from this min width and UP)</p>
+    <p>At 1000px OR LESS the text will turn blue.
+      (media query using max-width: 1000px - from this max width and BELOW)</p>
+    <p>the order in which you place the links to css media query pages effects
+      the order in which they are applied</p>
+
+  </section>
+
+
+
+
+
+
+
+</body>
+
+</html>
