@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  /* flex */
+  display: flex;
+  flex-flow: row wrap;
+  /* formatting */
+  width: 100%;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+}
+
+.c1, .c2, .c3 {
+  color: white;
+  width: 100%;
+  min-height: 150px;
+}

@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  min-height: 150px;
+  border: 2px solid black;
+  background-image: url(https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.f1 {
+  background-color: red;
+  width: 25%;
+}
+
+.f2 {
+  background-color: green;
+  width: 75%;
+}
+
+.f3 {
+  background-color: orange;
+  width: 75%;
+}
+
+.f4 {
+  background-color: blue;
+  width: 25%;
+}
+
+.f5 {
+  background-color: yellow;
+  width: 34%;
+}
+
+.f6 {
+  background-color: indigo;
+  width: 33%;
+}
+
+.f7 {
+  background-color: violet;
+  width: 33%;
+}

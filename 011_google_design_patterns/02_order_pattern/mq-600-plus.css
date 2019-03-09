@@ -1,0 +1,13 @@
+.c1 {
+  width: 45%;
+  order: 3;
+}
+
+.c2 {
+  width: 55%;
+  order: 2;
+}
+
+.c3 {
+  order: 3;
+}

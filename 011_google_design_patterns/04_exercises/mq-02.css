@@ -1,0 +1,11 @@
+.f5, .f6 {
+  width: 50%;
+}
+
+.f7 {
+  width: 100%;
+  order: -2;
+  /*anything with the highest order moves to flex END - by giving this item
+    a negative order, it will appear at flex start - all other items have a
+    default order of 0  */
+}
