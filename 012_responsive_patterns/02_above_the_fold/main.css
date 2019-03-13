@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: yellow;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  /* border: 10px solid red; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* 100 viewport height - will take up 100% of viewport height */
+  background-image: url(https://cdn2.outdoorphotographer.com/2018/04/DShow_OR-Buttes_RD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* lilac and yellow - nice colour combo */
+p {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.content {
+  color: black;
+}

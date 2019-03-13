@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.c-main-content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+header, aside, main, footer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: orangered;
+}
+
+.aside1 {
+  background-color: gold;
+}
+
+.aside2 {
+  background-color: hotpink;
+}
+
+main {
+  background-color: dodgerblue;
+  height: 200px;
+}
+
+footer {
+  background-color: lightgreen;
+}

@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.atf {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  background-image: url("https://www.federallabs.org/sites/default/files/field/image/1FLcfl2052.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slogan {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+ul {
+  height: 269px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: deepskyblue;
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  text-align: center;
+}
+
+a:hover {
+  background: dodgerblue;
+}
+
+a:last-child {
+  border-bottom: none;
+}
+
+a {
+  display: block;
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
+  border-top: 1px solid rgba(240, 240, 240, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+p {
+  font-size: 2rem;
+  padding: 2em 1em;
+}
